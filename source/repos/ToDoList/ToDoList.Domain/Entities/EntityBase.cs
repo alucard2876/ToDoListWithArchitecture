@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ToDoList.Domain.Entities
 {
-    class TEntityBase
+    public class TEntityBase
     {
+        public Guid Id { get; protected set; }
     }
 }
